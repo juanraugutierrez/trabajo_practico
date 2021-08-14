@@ -18,6 +18,11 @@ body{
     
 
 }
+
+#dato{
+    background-color: antiquewhite;
+    color:black;
+}
 .slide{
     width: 100%;
     height: 10%;
