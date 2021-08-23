@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+html {
+  background-color: #d34f2c;
+  font-family: 'Lato', sans-serif;
+}
+
+button:focus { 
+  outline:0; 
+}
+
+.content {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.start-button {
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1% 0 1% 0%;
+  margin-top: 1%;
+  text-transform: uppercase;
+  background: none;
+  border: 3px solid white;
+  color: white;
+  width: 10%;
+  height: 5%;
+  font-size: 2vw;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.start-button:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.img-animated {
+  margin: 0 auto;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  width: 20%;
+}
+
+.title { 
+  color: white;
+  display: none;
+}

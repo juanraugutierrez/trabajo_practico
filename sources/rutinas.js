@@ -2,6 +2,9 @@
 //     alert("Hola Bienvenidos a esta pagina");
 
 // }
+
+
+
 function generarNuevoColor(){
 	var simbolos, color;
 	simbolos = "0123456789ABCDEF";

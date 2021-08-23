@@ -39,91 +39,91 @@
   </nav>
 </header>
 
-<main class="container mt-4 p-5">
+<main class="m-4 p-5 clearfix">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-5 col-md-5 col-lg-5 col-sm-5">
+       
+        <div class="text-center fcontacto m-3 p-3">
+          <form class="form-floating form-control-sm formulario" action="/action_page.php" method="get">
+            <div class="fondd m-0 p-0">
+              <h2>Formulario de contacto</h2>
+              <img class="mb-2 logo-conta" src="./sources/img/logoRpropiedades.png" alt="">
+              <h1 class="h3 mb-4 p-1 fw-normal">Registrese</h1>
+            </div>
 
-  <div class="align-content-center">
-    <section class="mt-5">
-      <div class="row">
-
-        <div class="col-6">
-          <h2>Formulario de contacto</h2>
-          <div class="text-center fcontacto m-0 p-0">
-            <form class="card  mt-0 ">
-              <div class="card-header">
-                <img class="mb-4" src="./sources/img/logoRpropiedades.png" alt="" width="90" height="90">
-                <h1 class="h3 mb-3 fw-normal">Registrese</h1>
-              </div>
-              <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
-                <label for="floatingInput">Nombre</label>
-              </div>
-              <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Apellido">
-                <label for="floatingInput">Apellido</label>
-              </div>
-              <div class="form-floating">
-                <input type="textarea" class="form-control" id="floatingInput" placeholder="Mensaje">
-                <label for="floatingInput">Mensaje</label>
-              </div>
-              <div class="form-floating">
-                <input id="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Correo</label>
-              </div>
-            
-              <hr>
-              <div class="mt-2">
-                <p class="card-subtitle bg-dark mb-3 p-sm-3 text-white">OPERACION DE INTERES</p>
-                <div>
-                  <div class="form-check">
-                    <input class="form-check-input m-1" type="radio" name="exampleRadios" id="exampleRadios1"
-                      value="option1" checked>
-                    <label class="form-check-label m-0" for="exampleRadios1">
-                      Venta
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input m-1" type="radio" name="exampleRadios" id="exampleRadios2"
-                      value="option2">
-                    <label class="form-check-label m-0" for="exampleRadios2">
-                      Arriendo
-                    </label>
-                  </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+              <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Apellido">
+              <label for="floatingInput">Apellido</label>
+            </div>
+            <div class="form-floating">
+              <input type="textarea" class="form-control" id="floatingInput" placeholder="Mensaje">
+              <label for="floatingInput">Mensaje</label>
+            </div>
+            <div class="form-floating">
+              <input id="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Correo</label>
+            </div>
+          
+            <hr>
+            <div class="mt-2">
+              <p class="card-subtitle bg-dark mb-3 p-sm-3 text-white">OPERACION DE INTERES</p>
+              <div>
+                <div class="form-check">
+                  <input class="form-check-input m-1" type="radio" name="exampleRadios" id="exampleRadios1"
+                    value="option1" checked>
+                  <label class="form-check-label m-0" for="exampleRadios1">
+                    Venta
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input m-1" type="radio" name="exampleRadios" id="exampleRadios2"
+                    value="option2">
+                  <label class="form-check-label m-0" for="exampleRadios2">
+                    Arriendo
+                  </label>
                 </div>
               </div>
-              <hr>
-              <div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Recuerdame
-                </label>
-              </div>
-              <div class="align-content-center">
-                <button class="w-50  btn btn-lg btn-primary" type="submit">Enviar</button>
-              </div>
-              <p class="mt-5 mb-3 text-muted">© Rpropiedades 2021–2031</p>
-            </form>
+            </div>
+            <hr>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Recuerdame
+              </label>
+            </div>
+            <div class="align-content-center">
+              <button class="w-50  btn btn-lg btn-primary" type="submit">Enviar</button>
+            </div>
+            <p class="mt-5 mb-3 text-muted">© Rpropiedades 2021–2031</p>
+          </form>
+        
+      </div>
+      <div class="col-6 col-md-6 col-lg-6 col-sm-6">
+        <div>
+          <h2>Ubicacion</h2>
+          <div id="mapa">
+            <iframe id="mapa"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13320.805563101107!2d-70.6063901!3d-33.4179935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a87ef2fefaad0df!2sCostanera%20Center!5e0!3m2!1ses-419!2scl!4v1628479712358!5m2!1ses-419!2scl"
+               style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
-        </div>
-        <!-- **************************************** -->
-        <div class="col-4">
           <div>
-            <h2>Ubicacion</h2>
-            <div id="mapa">
-              <iframe id="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13320.805563101107!2d-70.6063901!3d-33.4179935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a87ef2fefaad0df!2sCostanera%20Center!5e0!3m2!1ses-419!2scl!4v1628479712358!5m2!1ses-419!2scl"
-                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div>
-              <hr>
-              <h2>Datos</h2>
-              <address> Huerfanos 1141, piso 6 of.301</address>
+            <hr>
+            <h2>Datos</h2>
+            <address> Huerfanos 1141, piso 6 of.301</address>
 
-            </div>
           </div>
         </div>
 
+      </div>
 
-    </section>
-  </div>
+    </div>
+    </div>
+
+
 </main>
 
 <footer class="pfooter">
