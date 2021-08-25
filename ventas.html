@@ -13,6 +13,7 @@
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js" integrity="sha512-+VS2+Nl1Qit71a/lbncmVsWOZ0BmPDkopw5sXAS2W+OfeceCEd9OGTQWjgVgP5QaMV4ddqOIW9XLW7UVFzkMAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <title>Corredora de Propiedades | Ventas</title>
 </head>
 <header class="mb-5">
@@ -66,10 +67,10 @@
             <div class="popup" id="popup" style="display: none;">
               <div class="content-popup">
                   <div class="close"><a href="#" id="close"><img class="icono" src="./sources/img/close.png"/></a></div>
-                  <div>
+                  <div id="anima">
                     <h2>Contenido POPUP</h2>
-                      <p>Lorem Ipsum...</p>
-                      <div style="float:left; width:100%;">
+                      <p class="anima">Lorem Ipsum...</p>
+                      <div class="anima" style="float:left; width:100%;">
                 </div>
                   </div>
               </div>
@@ -163,6 +164,7 @@
 </script>
 <script src="./sources/rutinas.js"></script>
 <script src="./sources/popup.js"></script>
+<script src="./sources/animacion.js"></script>
 </body>
 
 </html>
